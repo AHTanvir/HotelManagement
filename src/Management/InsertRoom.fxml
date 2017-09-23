@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="inroom" onMouseEntered="#combox" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@insertroom.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="168.0" layoutY="81.0" text="Room No">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="143.0" text="Room Type">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="203.0" text="Bed Type">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="267.0" text="Tariff Per Room">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="in_tf1" layoutX="233.0" layoutY="78.0" onAction="#combox" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="in_tf4" layoutX="234.0" layoutY="264.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button fx:id="btn_insert" layoutX="266.0" layoutY="334.0" mnemonicParsing="false" onAction="#Buttonisclick" prefHeight="25.0" prefWidth="68.0" text="Insert">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="cbox2" centerShape="false" editable="true" layoutX="233.0" layoutY="140.0" prefHeight="25.0" prefWidth="149.0" />
+      <ComboBox fx:id="cbox3" editable="true" layoutX="233.0" layoutY="200.0" prefHeight="25.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>

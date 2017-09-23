@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="login" focusTraversable="true" prefHeight="451.0" prefWidth="586.0" stylesheets="@test.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+   <children>
+      <Label layoutX="152.0" layoutY="161.0" prefHeight="20.0" prefWidth="64.0" text="Username" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="216.0" prefHeight="17.0" prefWidth="64.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="u_name" layoutX="224.0" layoutY="158.0" prefHeight="25.0" prefWidth="180.0" styleClass="bevel-grey" />
+      <Button fx:id="btn_login" layoutX="262.0" layoutY="260.0" mnemonicParsing="false" onAction="#Buttonisclick" prefHeight="25.0" prefWidth="64.0" styleClass="bevel-grey" text="Login" />
+      <PasswordField fx:id="P_word" layoutX="228.0" layoutY="214.0" prefHeight="25.0" prefWidth="180.0" styleClass="bevel-grey" />
+   </children>
+   <styleClass>
+      <String fx:value="test" />
+      <String fx:value="background" />
+   </styleClass>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onMouseEntered="#test" prefHeight="565.0" prefWidth="762.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@book.css" />
+    </stylesheets>
+   <children>
+      <Label layoutY="1.0" text="Room No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="1.0" text="Room type" />
+      <Label layoutX="578.0" layoutY="1.0" text="Bed Type" />
+      <Label layoutX="389.0" layoutY="77.0" text="Check Out" />
+      <Label layoutX="69.0" layoutY="78.0" text="Check In" />
+      <Label layoutX="102.0" layoutY="225.0" text="Age" />
+      <Label layoutX="88.0" layoutY="183.0" text="Name" />
+      <TextField fx:id="r_tf1" layoutX="76.0" layoutY="2.0" prefHeight="25.0" prefWidth="111.0" styleClass="bevel-grey" />
+      <TextField fx:id="r_tf2" layoutX="354.0" layoutY="2.0" prefHeight="25.0" prefWidth="111.0" styleClass="bevel-grey" />
+      <TextField fx:id="r_tf3" layoutX="651.0" layoutY="3.0" prefHeight="25.0" prefWidth="111.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf12" layoutX="483.0" layoutY="398.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="d_tf2" layoutX="483.0" layoutY="78.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="d_tf1" layoutX="147.0" layoutY="78.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <Label layoutX="425.0" layoutY="397.0" text="Rent" />
+      <Label layoutX="87.0" layoutY="356.0" text="ID NO" />
+      <Label layoutX="103.0" layoutY="310.0" text="City" />
+      <Label layoutX="411.0" layoutY="310.0" text="Country" />
+      <Label layoutX="381.0" layoutY="183.0" text="No of visitor" />
+      <Label layoutX="39.0" layoutY="270.0" text="Relationship" />
+      <Label layoutX="45.0" layoutY="397.0" text=" Nationality" />
+      <Label layoutX="411.0" layoutY="270.0" text="Address" />
+      <Label layoutX="410.0" layoutY="225.0" text="Purpose" />
+      <Label layoutX="415.0" layoutY="356.0" text=" Phone" />
+      <TextField fx:id="tf1" layoutX="147.0" layoutY="184.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf2" layoutX="147.0" layoutY="226.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf3" layoutX="147.0" layoutY="271.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf4" layoutX="147.0" layoutY="311.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf5" layoutX="147.0" layoutY="357.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf6" layoutX="147.0" layoutY="397.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf7" layoutX="484.0" layoutY="184.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf8" layoutX="483.0" layoutY="226.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf9" layoutX="484.0" layoutY="271.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf10" layoutX="483.0" layoutY="311.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <TextField fx:id="tf11" layoutX="483.0" layoutY="357.0" prefHeight="25.0" prefWidth="190.0" styleClass="bevel-grey" />
+      <Button fx:id="btn_conbook" layoutX="311.0" layoutY="465.0" mnemonicParsing="false" onAction="#popupwindos" prefHeight="33.0" prefWidth="82.0" styleClass="bevel-grey" text="Book" />
+      <Button fx:id="btn_back" layoutX="317.0" layoutY="511.0" mnemonicParsing="false" onAction="#popupwindos" prefHeight="33.0" prefWidth="76.0" styleClass="bevel-grey" text="Back" />
+   </children>
+</AnchorPane>
